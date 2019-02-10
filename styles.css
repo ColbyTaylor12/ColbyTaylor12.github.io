@@ -1,0 +1,17 @@
+body {
+    background-color: forestgreen;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  h1, h2 {
+    font-family: 'Staatliches', cursive;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+    display: block;
+  }
+  
+  title {
+      text-align: center
+  }
