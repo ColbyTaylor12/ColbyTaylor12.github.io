@@ -18,3 +18,11 @@ body {
   .jumbotron {
     background-color: blue;
   }
+
+  #projects {
+    color: orangered;
+  }
+
+  #links {
+    color: blue;
+  }

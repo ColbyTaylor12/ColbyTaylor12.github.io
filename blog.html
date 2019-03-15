@@ -18,14 +18,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
-    <link rel="stylesheet" href="/styles.css"> 
+    <link rel="stylesheet" href="/blogstyle.css"> 
 
   </head>
   <body>
      <!-- Navigation -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
       <!-- Brand -->
-    <a class="navbar-brand" href="#">Nav</a>
+    <a class="navbar-brand" href="#pageTop">FCT</a>
       <!-- Toggler/collapsibe Button -->
       <buttton class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -36,21 +36,30 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Main</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#post1">Blog Post 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#post2">Blog Post 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#post3">Blog Post 3</a>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <header class="bg-primary text-white text-center">
+    <header class="bg-primary text-white text-center" id="pageTop">
       <div class="jumbotron jumbotron-fluid text-center">
         <div class="p-5">
-        <h1>This is Not the Title You are Looking For</h1>
+        <h1>This Is Not The Title You Are Looking For</h1>
         <img class="img-fluid" src="mind_trick.gif">
       </div>
       </div>
     </header>
 
-    <div class="container">
-      <div class="row">
+    <div class="container pt-5" id="post1">
+      <div class="row border pt-3 pb-5" id="oddPost">
         <div class="col-lg-8 mx auto">
           <h2>So it begins...</h2>
           <p>So this is the first post for my blog. I will be documenting my time in the Awesome Inc U bootcamp.
@@ -69,8 +78,8 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
+    <div class="container pt-5" id="post2">
+      <div class="row border pt-3 pb-5" id="evenPost">
         <div class="col-lg-8 mx auto">
           <h2>Let's continue our story...</h2>
           <p>Here we are again but this time after week two of the bootcamp. Week two was a lot more strenuous than the prior week as we 
@@ -91,6 +100,37 @@
         </div>
       </div>
     </div>
+
+    <div class="container pt-5" id="post3">
+      <div class="row border pt-3 pb-5" id="oddPost">
+        <div class="col-lg-8 mx auto">
+          <h2>Here we are again...</h2>
+          <p>Week three has now come and gone and we are onto the next phase of our journey. We went from using just vanilla javascript and now have added 
+            the framework Vue.js into the mix. Things have started to speed up a little more yet again. With the content speeding up it does allow us an 
+            opportunity to see how everything fits together because everything is fresh in our mind as we introduce the new content into out learning 
+            environment. With the difficulties that come with such an accelerated learning curve we have balanced that stress with a group of people all in the 
+            same boat all heading in the same direction. Everyone in the class is prepared to help with any question as well as engage in thoughtful and 
+            inspirational discussions. Everyone wants to see everyone succeed which is a big help to the learning environment. 
+            As usual they have provided some guiding questions to answer along with my insights on the bootcamp so far. They want us to begin thinking about 
+            our final project for this course. So to start off I have been tasked with coming up with three possible ideas for the final project. The suggestion
+            was made to think about your passions which will make the final project easier to work on. 
+           <ol>
+            <li>Web App that could keep you up to date with the important stats and info from your favorite baseball team.</li>
+            <li>An informative website that non-baseball watchers can ask a question or see FAQs along with basic information so that can help promote watchability.</li>
+            <li>A website to help non developers speak with someone from the tech industry so they convey what they want more logically</li>
+          </ol> 
+            We have also been asked to reflect on out past works for this weeks blog post as well. We have worked on 7 exercises over the last two weeks that 
+            have allowed us to implement what we have learned in an environment built for us to try, test, fail and restructure. This format has allowed for us to 
+            interact with the tools we are given on an exploratory level. We can see how everything functions by using what we know and seeking out resources 
+            that can either help us to the answer or point us in a better direction. The exercise I think that I have enjoyed the most this week was the mind reader.
+            With that exercise we had to build a multi level word game on one index.html page. This forced us to play with state handling and switching the state of 
+            differnt items on one page. By being allowed to show or hide parts of the page you can create a less cluttered site. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/Main.js"></script>
 
   </body>
 </html>
