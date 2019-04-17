@@ -1,5 +1,5 @@
 body {
-    background-color: orangered;
+    background-color:rgb(160, 160, 160);
     font-family: 'PT Sans Narrow', sans-serif;
   }
   h2 {
@@ -16,11 +16,11 @@ body {
       text-align: center
   }
   .jumbotron {
-    background-color: blue;
+    background-color: rgb(64, 64, 250);
   }
 
   #projects {
-    color: orangered;
+    color: blue;
   }
 
   #links {
