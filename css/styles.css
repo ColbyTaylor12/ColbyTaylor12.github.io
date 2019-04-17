@@ -16,13 +16,16 @@ body {
       text-align: center
   }
   .jumbotron {
-    background-color: rgb(64, 64, 250);
+    background-image: url(/img/baseballBG.png);
+    background-size: cover;
+ background-repeat: no-repeat;
+    color: whitesmoke;
   }
 
   #projects {
-    color: blue;
+    color: black;
   }
 
   #links {
-    color: blue;
+    color: black;
   }
